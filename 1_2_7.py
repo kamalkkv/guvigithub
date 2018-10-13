@@ -1,0 +1,14 @@
+n=int(input())
+x=str(n)
+l=len(x)
+sum=0
+d=0
+while(n!=0):
+    d=n%10
+    n=n//10
+    sum=sum+d**l
+n=int(x)
+if(sum==n):
+    print('yes')
+else:
+    print('no')
