@@ -1,2 +1,3 @@
 s=input()
-print(s)
+for i in s:
+    print(i,end='')
