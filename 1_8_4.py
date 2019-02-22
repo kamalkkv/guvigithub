@@ -1,3 +1,4 @@
 import math
 n=float(input())
-print(math.ceil(n))
+x=math.ceil(n)
+print(x)
