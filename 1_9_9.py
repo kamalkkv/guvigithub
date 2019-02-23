@@ -1,0 +1,5 @@
+s=input()
+l=list(s)
+print(l)
+l1=sorted(l)
+print(''.join(map(str,l1)))
